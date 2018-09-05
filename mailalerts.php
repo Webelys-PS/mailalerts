@@ -117,6 +117,7 @@ class MailAlerts extends Module
 					`id_product_attribute` int(10) unsigned NOT NULL,
 					`id_shop` int(10) unsigned NOT NULL,
 					`id_lang` int(10) unsigned NOT NULL,
+					`date_add` datetime NOT NULL,
 					PRIMARY KEY  (`id_customer`,`customer_email`,`id_product`,`id_product_attribute`,`id_shop`)
 				) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci';
 
